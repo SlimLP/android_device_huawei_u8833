@@ -20,6 +20,9 @@
 # Inherit from the common msm7x27a definitions
 -include device/huawei/msm7x27a-common/BoardConfigCommon.mk
 
+# Enable *.odex files
+DISABLE_DEXPREOPT := false
+
 # Architecture and CPU
 TARGET_CPU_SMP := true
 
