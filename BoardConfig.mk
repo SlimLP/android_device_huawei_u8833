@@ -20,8 +20,11 @@
 # Inherit from the common msm7x27a definitions
 -include device/huawei/msm7x27a-common/BoardConfigCommon.mk
 
-# Enable *.odex files
+# *.odex system
 DISABLE_DEXPREOPT := false
+
+# WebView Chromium
+PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
 
 # Architecture and CPU
 TARGET_CPU_SMP := true
