@@ -23,9 +23,6 @@
 # *.odex system
 DISABLE_DEXPREOPT := false
 
-# WebView Chromium
-PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
-
 # Architecture and CPU
 TARGET_CPU_SMP := true
 
