@@ -24,5 +24,5 @@ $(call inherit-product, device/huawei/u8833/u8833.mk)
 PRODUCT_NAME := full_u8833
 PRODUCT_DEVICE := u8833
 PRODUCT_BRAND := Huawei
-PRODUCT_MANUFACTURER := HUAWEI
+PRODUCT_MANUFACTURER := Huawei
 PRODUCT_MODEL := Ascend Y300
