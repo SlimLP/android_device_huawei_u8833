@@ -20,24 +20,14 @@
 # Inherit from the common msm7x27a definitions
 -include device/huawei/msm7x27a-common/BoardConfigCommon.mk
 
-# *.odex system
-DISABLE_DEXPREOPT := false
-
-# Architecture and CPU
-TARGET_CPU_SMP := true
-
 TARGET_BOOTLOADER_BOARD_NAME := u8833
 TARGET_OTA_ASSERT_DEVICE := u8833,hwu8833,u8951,hwu8951
 
 # Audio
-TARGET_PROVIDES_LIBAUDIO := true
+TARGET_HAS_QACT := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8833/bluetooth
-
-# FM
-BOARD_HAVE_QCOM_FM := true
-COMMON_GLOBAL_CFLAGS += -DQCOM_FM_ENABLED
 
 # Kernel
 TARGET_KERNEL_CONFIG := u8833_defconfig
